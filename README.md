@@ -53,4 +53,3 @@
 <li>Mostly myself, but also Sanjib bhai for giving me this opportunity</li>
 </ul><h2>Contact</h2>
 <hr><p><span style="margin-right: 30px;"></span><a href="https://www.linkedin.com/in/jawad-ibn-mamoon/"><img style="width: 10%;" target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"></a><span style="margin-right: 30px;"></span><a href="https://github.com/Ostitter-Anondo"><img style="width: 10%;" target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"></a><span style="margin-right: 30px;"></span><a href="https://www.facebook.com/ostitter.anondo"><img style="width: 10%;" target="_blank" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg"></a></p>
-# hotel-listings-backend
