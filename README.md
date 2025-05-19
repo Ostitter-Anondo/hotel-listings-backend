@@ -30,6 +30,7 @@
 <ul>
   <li>at the very bottom of demo/settings.py, remember to add the url your front end is being hosted at. currently it only has the default url for vite+react</li>
 </ul>
+<ul>
 <li>django superuser credentials:</li>
 </ul><p><code>username: "admin", password: "admin"</code></p>
 
