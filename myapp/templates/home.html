@@ -1,0 +1,50 @@
+{% extends "base.html" %} {% block title %}Hotel Lists{% endblock title %}
+{%block content %}
+<main>
+	<div>
+		<h1>Welcome to hotel listings</h1>
+		<p>
+			Here we have a listing of fictional hotels generated using ChatGPT being
+			served via JSON APIs. Use the following links to view the endpoints.
+		</p>
+		<ul>
+			<li>
+				<a href="hotels" target="_blank">all hotels</a>: this endpoint serves
+				all available hotel data
+			</li>
+			<li>
+				<b>filtered hotels:</b> this api endpoint serves hotels based on the
+				following html get request queries:
+				<ul>
+					<li>
+						"city": accepted values are city names, case insensitive;
+						<a
+							href="filteredhotels?city=denver&ratings=1&amenities=all"
+							target="_blank"
+							>demo: all hotels in denver</a
+						>
+					</li>
+					<li>
+						"ratings": accepted values are floats, will return hotels with
+						rating higher than the value provided;
+						<a
+							href="filteredhotels?city=all&ratings=4&amenities=all"
+							target="_blank"
+							>demo: all hotels in with 4 star and up rating</a
+						>
+					</li>
+					<li>
+						"amenities": accepted values are "all", "both", "pool", "breakfast"
+						and returns appropriate value
+						<a
+							href="filteredhotels?city=all&ratings=1&amenities=breakfast"
+							target="_blank"
+							>demo: all hotels in with complimentary breakfast</a
+						>;
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</main>
+{% endblock content %}
